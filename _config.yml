@@ -1,0 +1,28 @@
+title: Web-Multiskill
+description: >- 
+  Selamat datang di web multiskill, upgrade skill mu sekarang juga!
+baseurl: "" # kosongkan jika di-root domain, misalnya ganisrafi.my.id
+url: "https://web-multiskill.netlify.app" # domain produksi kamu
+
+# Build settings
+markdown: kramdown
+theme: minima # atau custom theme, bisa dikosongkan jika pakai layout sendiri
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Optional: struktur permalink
+permalink: /:categories/:title/
+
+# Optional: default values untuk front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
