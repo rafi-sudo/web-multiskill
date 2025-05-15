@@ -24,12 +24,19 @@
         <img src="assets/images/logo_header.png" style="width: 9%; height: auto;"></img>
         <span class="ml-3 text-xl">Upgrade Skill-mu di MultiSkill!!</span>
       </a>
-      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-        <a href={( home.md | relative_url)}>////<b>Kursus Unggulan</b>//</a>
-        <a href={( paketkursus.md | relative_url)}>//<b>Paket Kursus</b>//</a>
-        <a href={( program.md | relative_url)}>//<b>Program</b>//</a>
-        <a href={( home.md | relative_url)}>//<b>Tentang</b>//</a>
-      </nav>
+      <span class="text-3xl cursor-pointer md:hidden block>
+        <i class="fas fa-toggle-on fa-sm fa-fw"></i>
+      </span>
+      <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top[-400px] transitions-all ease-in duration-500">
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-x1 hover:text-black-500 duration">KURSUS UNGGULAN</a></li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-x1 hover:text-black-500 duration">PAKET KURSUS</a></li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-x1 hover:text-black-500 duration">PROGRAM</a></li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-x1 hover:text-black-500 duration">TENTANG</a></li>
+      </ul>
       <button class="inline-flex items-center bg-green-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><a href="about:blank">Daftar disini!</a>
         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
           <path d="M5 12h14M12 5l7 7-7 7"></path>
