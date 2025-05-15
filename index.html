@@ -11,9 +11,14 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <title>Tes</title>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
-  <header class="text-gray-600 body-font">
+  <header class="text-white-body-font">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
         <img src="assets/images/logo_header.png" style="width: 9%; height: auto;"></img>
@@ -32,7 +37,34 @@
       </button>
     </div>
   </header>
-  <body></body>
+  <body>
+    <body class="bg-gray-900 text-white">
+
+  <div class="max-w-4xl mx-auto mt-10">
+    <div class="swiper mySwiper rounded-2xl shadow-lg overflow-hidden">
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <img src="https://source.unsplash.com/random/800x400?nature" class="w-full h-64 object-cover" />
+        </div>
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <img src="https://source.unsplash.com/random/800x400?technology" class="w-full h-64 object-cover" />
+        </div>
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+          <img src="https://source.unsplash.com/random/800x400?city" class="w-full h-64 object-cover" />
+        </div>
+      </div>
+
+      <!-- Navigasi panah -->
+      <div class="swiper-button-next text-white"></div>
+      <div class="swiper-button-prev text-white"></div>
+
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
     <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
@@ -81,7 +113,7 @@
         <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
       </div>
     </section>
-      
+    </body>
      <footer class="text-gray-600 body-font">
        <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
          <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
