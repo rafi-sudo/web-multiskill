@@ -1,29 +1,17 @@
 <!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
-  
-  <!-- SEO plugin -->
-  {% seo %}
+<html>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"/>
-  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
-</head>
-<body>
-  <header>
-    {% include nav.html %}
-  </header>
+  {% include head.html %}
 
-  <main>
+  {% include header.html %}
+
+<body class="bg-white-900 text-white">
+
+    
     {{ content }}
-  </main>
 
-  <footer>
+    
     {% include footer.html %}
-  </footer>
-</body>
+
+  </body>
 </html>

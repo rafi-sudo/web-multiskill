@@ -1,0 +1,56 @@
+ <footer class="text-gray-600 body-font">
+       <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+         <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+           <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+             <img src="{{ 'assets/images/logo_header.png' | prepend: site.baseurl }}" alt="{{ site.name }}" style="width: 9%; height: auto;"></img>
+             <span class="ml-3 text-xl">Lembaga Kursus MultiSkill</span>
+           </a>
+           <p class="mt-2 text-sm text-gray-500">CV. Miliki MultiSkill | © 2025 Rafi-Sudo Dev</p>
+           <i class="fas fa-phone fa-sm fa-fw"></i>
+           <i class="fas fa-envelope-open-text fa-sm fa-fw"></i>
+           <i class="fas fa-location-arrow fa-sm fa-fw"></i>
+           <i class="fab fa-instagram fa-sm fa-fw"></i>
+           <i class="fab fa-facebook fa-sm fa-fw"></i>
+           <i class="fab fa-youtube fa-sm fa-fw"></i>
+           <p>Telp. +62 8123 4567 8711</p>
+           <p><a href="mailto://lkp-multiskill@netlify.app">Email : lkp-multiskill@netlify.app</a></p>
+           <p><a href="https://maps.app.goo.gl/hSEzteuo8vR94htZ6">Jl. Tentara Pelajar, No XX, Ds. Lorem Ipsum, Kel Dolor Sit Amet, Kec. Banjar, Kota Banjar - Jawa Barat</a></p>
+           <p><a href="https://instagram.com/ganisrafirasyadi">IG : @ganisrafirasyadi</a></p>
+           <p><a href="https://facebook.com/seni.rafirasyadi">FB : Rafi Rasyadi</a></p>
+           <p><a href="https://youtube.com/@rafirasyadi">YT : Rafi Rasyadi</a></p>
+         </div>
+         <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+             <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">TAUTAN-TAUTAN</h2>
+             <nav class="list-none mb-10">
+               <li>
+                 <a class="text-gray-600 hover:text-gray-800"><a href="{{ '/' | prepend: site.baseurl }}">PAKET KURSUS</a>
+               </li>
+               <li>
+                 <a class="text-gray-600 hover:text-gray-800"><a href="{{ '/' | prepend: site.baseurl }}">PROGRAM</a>
+               </li>
+               <li>
+                 <a class="text-gray-600 hover:text-gray-800"><a href="{{ '/' | prepend: site.baseurl }}">TENTANG</a>
+               </li>
+               <li>
+                 <a class="text-gray-600 hover:text-gray-800"><a href="{{ '/' | prepend: site.baseurl }}">BLOG</a>
+               </li>
+             </nav>
+           </div>
+           <iframe style="position: relative; top: 50; left: 50; width: 70%; height: 80%; border:0;" loading="lazy" allowfullscreen src="https://maps.google.com/maps?q=Lembaga+Kursus+dan+Pelatihan+%28LKP%29+Kurnia+Kota+Banjar&output=embed"></iframe><a href="https://mapembeds.com" rel="noopener" target="_blank" style="position: down; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;">mapembeds.com</a>
+         <div>
+</div>
+<!-- WhatsApp Chat Overlay -->
+<div onclick="openWhatsApp()" class="fixed bottom-6 right-6 bg-green-500 text-white px-5 py-3 rounded-full shadow-lg cursor-pointer hover:bg-green-600 z-50 animate-fade-slide">
+  <i class="fab fa-whatsapp fa-sm fa-fw"></i> Halo👋, apakah ada yang perlu ditanyakan?
+</div>
+
+<script>
+  function openWhatsApp() {
+    const phone = "6285352417212"; // Ganti dengan nomor WhatsApp kamu
+    const message = "Paket Kursus mengemudi masih ada?";
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+  }
+</script>
+     </footer>
