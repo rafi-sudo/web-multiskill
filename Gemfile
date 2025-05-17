@@ -26,7 +26,7 @@ group :jekyll_plugins do
 # gem "jekyll-feed", "~> 0.6"
 gem "jekyll-paginate", "~> 1.1"
 end
-gem "jekyll-postcss"
+# gem "jekyll-postcss"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # (Optional, mostly for Ruby on Windows)
