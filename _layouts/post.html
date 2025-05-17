@@ -1,13 +1,15 @@
 ---
 layout: default
 ---
-<article class="main-content page-page" itemscope itemtype="http://schema.org/Article">
-    <div class="post-header">
+<article class="prose prose-sm sm:prose lg:prose-lg px-4 md:px-8" itemscope itemtype="http://schema.org/Article">
+    <div class="px-10 sm:px-8 py-10 max-w-3xl mx-auto leading-relaxed text-justify">
         {% include breadcrumbs.html %}
 
-        <p><i class="fas fa-clock fa-sm fa-fw"></i>{{ page.date }} - Written by {{ page.author }}</p></div>
+        <p><i class="fas fa-clock fa-sm fa-fw"></i>{{ page.date }} - Written by {{ page.author }}</p>
 
 {{ content }}
 
-</article>
+</div>
+
 {% include comment.html %}
+</article>
