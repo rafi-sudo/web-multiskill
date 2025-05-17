@@ -9,7 +9,7 @@ date: 2025-17-05 21:00:00 +0700
 
 
 **Kita diajarkan apa?**
-
+</hr>
 <div class="swiper mySwiper" style="width: 100%; max-width: 600px; margin:auto;">
   <div class="swiper-wrapper">
     <div class="swiper-slide"><img src="https://images.pexels.com/photos/7014916/pexels-photo-7014916.jpeg" alt="Desain Grafis" style="width:100%;"></div>
@@ -22,12 +22,11 @@ date: 2025-17-05 21:00:00 +0700
   <!-- Pagination bulat -->
   <div class="swiper-pagination"></div>
 </div>
-
+</hr>
 **Lorem** ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt, nisl eget tempor tempor, augue nisi porttitor arcu, in viverra lectus nibh non leo. Suspendisse potenti. Curabitur fermentum ligula eu eros suscipit, ut iaculis metus mattis. 
-
-
+</hr>
 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam at velit in felis fermentum facilisis. Nunc blandit magna vel turpis congue, nec fermentum est blandit. Vivamus nec dignissim eros. Aliquam erat volutpat. Morbi ut viverra mi. Praesent sollicitudin lorem ut sapien
-
+</hr>
 **Rp. 3.000.000 / 3 Bulan Course**
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
