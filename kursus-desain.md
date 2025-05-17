@@ -9,7 +9,7 @@ date: 2025-17-05 21:00:00 +0700
 
 
 **Kita diajarkan apa?**
-</hr>
+<hr/>
 <div class="swiper mySwiper" style="width: 100%; max-width: 600px; margin:auto;">
   <div class="swiper-wrapper">
     <div class="swiper-slide"><img src="https://images.pexels.com/photos/7014916/pexels-photo-7014916.jpeg" alt="Desain Grafis" style="width:100%;"></div>
