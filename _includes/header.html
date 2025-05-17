@@ -4,33 +4,16 @@
         <img src="{{ 'assets/images/logo_header.png' | prepend: site.baseurl }}" alt="{{ site.name }}"></img>
         <span class="ml-3 text-xl"></span>
       
-      <div x-data="{ open: false }" class="relative">
-  <!-- Tombol hamburger -->
-  <button @click="open = !open" class="md:hidden text-black focus:outline-none p-4">
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-         viewBox="0 0 24 24" stroke="currentColor">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            d="M4 6h16M4 12h16M4 18h16" />
-    </svg>
-  </button>
-
-  <!-- Menu navigasi -->
-  <ul :class="open ? 'top-16 opacity-100' : 'top-[-400px] opacity-0'"
-      class="md:flex md:items-center z-[1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 transition-all ease-in duration-500">
-    <li class="mx-4 my-6 md:my-0">
-      <a href="#" class="text-xl hover:text-black duration-300">KURSUS UNGGULAN</a>
-    </li>
-    <li class="mx-4 my-6 md:my-0">
-      <a href="#" class="text-xl hover:text-black duration-300">PAKET KURSUS</a>
-    </li>
-    <li class="mx-4 my-6 md:my-0">
-      <a href="#" class="text-xl hover:text-black duration-300">PROGRAM</a>
-    </li>
-    <li class="mx-4 my-6 md:my-0">
-      <a href="#" class="text-xl hover:text-black duration-300">TENTANG</a>
-    </li>
-  </ul>
-</div>
+      <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top[-400px] transitions-all ease-in duration-500">
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-x1 hover:text-black-500 duration">KURSUS UNGGULAN</a></li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-x1 hover:text-black-500 duration">PAKET KURSUS</a></li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-x1 hover:text-black-500 duration">PROGRAM</a></li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-x1 hover:text-black-500 duration">TENTANG</a></li>
+      </ul>
       <button class="inline-flex items-center bg-green-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><a href="about:blank">Daftar disini!</a>
         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
           <path d="M5 12h14M12 5l7 7-7 7"></path>
