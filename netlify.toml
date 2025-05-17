@@ -3,7 +3,7 @@
   command = "bundle exec jekyll build"
 
 [build.environment]
-  RUBY_VERSION = "2.7.6" # atau yang cocok dengan versi Jekyll kamu
+  RUBY_VERSION = "2.4.6" # atau yang cocok dengan versi Jekyll kamu
   JEKYLL_ENV = "production"
 
 [context.production.environment]
