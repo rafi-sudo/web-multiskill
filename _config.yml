@@ -6,7 +6,8 @@ resume_site:
 description: Selamat datang di web LKP MultiSklill!
 github_username: rafi-sudo
 github: 
-plugins: []
+plugins:
+- jekyll-postcss
 permalink: /:year-:month-:day-:title
 paginate: 
 paginate_path: 
