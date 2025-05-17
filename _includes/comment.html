@@ -1,0 +1,101 @@
+<div class="container">
+    <h2>Silakan tinggalkan komentar dan nikmati diskusi bebas! 🎭💬</h2>
+<hr/>
+    <!-- Pilihan Postingan -->
+    <label for="postSelect">Pilih Postingan:</label>
+    <select id="postSelect" onchange="selectPost()">
+        <option value="">-- Pilih Postingan --</option>
+    </select>
+
+    <div id="selectedPost" style="margin-top: 10px; font-weight: bold;"></div>
+<script>
+    let selectedPost = null;
+
+    async function loadPosts() {
+    try {
+        let response = await fetch("");
+        let data = await response.json();
+
+        let postSelect = document.getElementById("postSelect");
+        data.items.forEach((item) => {
+            let option = document.createElement("option");
+            option.value = item.link;
+            option.textContent = item.title;
+            postSelect.appendChild(option);
+        });
+    } catch (error) {
+        console.error("Gagal mengambil postingan:", error);
+    }
+}
+
+
+    function selectPost() {
+        let select = document.getElementById("postSelect");
+        selectedPost = select.value;
+
+        let postDisplay = document.getElementById("selectedPost");
+        postDisplay.innerHTML = selectedPost ? `Komentar untuk: <a href="${selectedPost}" target="_blank">${select.options[select.selectedIndex].text}</a>` : "";
+
+        document.getElementById("commentInput").disabled = !selectedPost;
+        document.querySelector("button").disabled = !selectedPost;
+    }
+
+    function generateId() {
+        return Math.random().toString(36).substring(2, 8);
+    }
+
+    function addComment(text = null, parentId = null) {
+        if (!selectedPost) {
+            alert("Pilih postingan dulu!");
+            return;
+        }
+
+        let input = document.getElementById("commentInput");
+        let commentText = text || input.value.trim();
+        if (!commentText) return;
+
+        let userId = generateId();
+        let commentId = generateId();
+
+        let commentDiv = document.createElement("div");
+        commentDiv.className = "comment";
+        commentDiv.id = commentId;
+        commentDiv.innerHTML = `
+            <small>Anon-${userId}</small>
+            <p>${commentText}</p>
+            <button class="reply-btn" onclick="replyComment('${commentId}')">Balas</button>
+        `;
+
+        if (parentId) {
+            document.getElementById(parentId).appendChild(commentDiv);
+        } else {
+            document.getElementById("comments").appendChild(commentDiv);
+        }
+
+        input.value = "";
+
+        // Hapus komentar setelah 1 menit
+        setTimeout(() => {
+            let element = document.getElementById(commentId);
+            if (element) element.remove();
+        }, 60000);
+    }
+
+    function replyComment(parentId) {
+        let replyText = prompt("Masukkan balasan:");
+        if (replyText) {
+            addComment(replyText, parentId);
+        }
+    }
+
+    window.onload = loadPosts;
+</script>
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+    data-app-id="84c07ae4-43aa-4ab2-9bed-6f83180f2b3d"
+      data-page-id="{{ PAGE_ID }}"
+        data-page-url="{{ PAGE_URL }}"
+          data-page-title="{{ PAGE_TITLE }}"
+          ></div>div>
+          <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>script>
+          </script></div>
