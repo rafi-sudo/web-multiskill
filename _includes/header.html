@@ -1,5 +1,10 @@
 <header class="text-black body-font">
-    <div x-data="{ open: false }" class="relative">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"></a>
+        <img src="{{ 'assets/images/logo_header.png' | prepend: site.baseurl }}" alt="{{ site.name }}"></img>
+        <span class="ml-3 text-xl"></span>
+      
+      <div x-data="{ open: false }" class="relative">
   <!-- Tombol hamburger -->
   <button @click="open = !open" class="md:hidden text-black focus:outline-none p-4">
     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
