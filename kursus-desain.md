@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About site
+title: Design Graphic
 ---
 
 * content
