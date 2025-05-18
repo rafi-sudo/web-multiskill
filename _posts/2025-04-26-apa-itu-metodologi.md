@@ -1,11 +1,13 @@
+---
 layout: post
 title: Apa itu Metodologi
 date: 2025-01-01 00:00:00 +0800
 thumbnail : /assets/images/thumbsnail/metodologi-penelitian-300x141.jpg
-
-Berikut adalah artikel dengan judul **"Apa Itu Metodologi dalam Pelatihan?"**:
-
 ---
+
+
+
+ **"Apa Itu Metodologi dalam Pelatihan?"**:
 ![Img](/assets/images/thumbsnail/metodologi-penelitian-300x141.jpg)
 
 ## Apa Itu Metodologi dalam Pelatihan?
