@@ -28,7 +28,8 @@ date: 2025-17-05 21:00:00 +0700
 <hr/>
 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam at velit in felis fermentum facilisis. Nunc blandit magna vel turpis congue, nec fermentum est blandit. Vivamus nec dignissim eros. Aliquam erat volutpat. Morbi ut viverra mi. Praesent sollicitudin lorem ut sapien
 <hr/>
-**Rp. 3.000.000 / 3 Bulan Course**
+
+**Rp. 1.800.000 / 10 kali pertemuan**
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
