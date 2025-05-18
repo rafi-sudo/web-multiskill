@@ -10,10 +10,8 @@ date: 2025-17-05 21:00:00 +0700
 
 **Program - Program Kursus Pemerintah di kami!**
 <hr/>
-<div class="swiper mySwiper" style="width: 100%; max-width: 600px; margin:auto;">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide"><img src="https://www.kursus.kemdikbud.go.id/storage/artikel/cover/artikel_cover_1677210467_63f833633b3a4.png" alt="PKK" style="width:100%;"></div>
 
+![alt](https://www.kursus.kemdikbud.go.id/storage/artikel/cover/artikel_cover_1677210467_63f833633b3a4.png)
 **Program Pelatihan Kecakapan Kerja Kemendikbudristek Republik Indonesia**
 
 Program Pelatihan Kecakapan Kerja (PKK) adalah salah satu program dari Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbudristek) Republik Indonesia yang bertujuan untuk:
@@ -46,12 +44,10 @@ Pelatihan gratis
 
 2. Menyiapkan SDM siap kerja
 
-3. Meningkatkan akses keterampilan vokasi di seluruh wilayah Indonesia
-
-    <div class="swiper-slide"><img src="https://images.pexels.com/photos/4889302/pexels-photo-4889302.jpeg" alt="Desain Grafis" style="width:100%;"></div>
-
+3. Meningkatkan akses keterampilan vokasi di seluruh wilayah Indonesia.
 **program pelatihan dari Balai Latihan Kerja (BLK) yang bekerja sama dengan Dinas Tenaga Kerja (Disnaker)**
 
+![Alt](https://disnaker.pemalangkab.go.id/wp-content/uploads/2018/06/IMG_1261.jpg)
 BLK adalah lembaga pelatihan kerja milik pemerintah (pusat atau daerah) yang berada di bawah naungan Kementerian Ketenagakerjaan (Kemnaker) dan Disnaker di masing-masing provinsi/kabupaten/kota.
 
 ✅ Tujuan:
@@ -87,23 +83,4 @@ Pelatihan gratis
 1. Seragam, modul, alat praktik (disediakan)
 2. Konsumsi (makan siang/snack tergantung lembaga)
 2. Akses Wi-Fi / fasilitas pendukung lainnya
-  <!-- Navigasi panah -->
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-  <!-- Pagination bulat -->
-  <div class="swiper-pagination"></div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-  var swiper = new Swiper(".mySwiper", {
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-</script>
+  
