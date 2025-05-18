@@ -6,11 +6,11 @@ resume_site:
 description: Selamat datang di web LKP MultiSklill!
 github_username: rafi-sudo
 github: 
-plugins: []
+plugins:
+  - jekyll-paginate
 permalink: /:year-:month-:day-:title
-paginate: 6
-paginate_files:
-  - postloop.html
+paginate: 5  # jumlah post per halaman
+paginate_path: "/page:num"  # format URL pagination
 paginate_path: 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 markdown: kramdown
