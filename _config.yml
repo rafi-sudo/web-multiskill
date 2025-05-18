@@ -8,7 +8,10 @@ github_username: rafi-sudo
 github: 
 plugins: []
 permalink: /:year-:month-:day-:title
-paginate: 
+paginate: 6
+paginate_files:
+  - blog.html
+  - projects.html
 paginate_path: 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 markdown: kramdown
