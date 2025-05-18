@@ -28,59 +28,65 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
   
-  - name: "kursus-desain"
-    label: "deskripsi-vokasi"
-    file: "kursus-desain.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "kursus-unggulan"
+    label: "list kursus unggulan"
+    files:
+    - label: "Kursus Desain"
+      name: "kursus-desain"
+      file: "kursus-desain.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: "kursus-komputer"
-    label: "deskripsi-vokasi"
-    file: "kursus-komputer.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+    - label: "Kursus Komputer"
+      name: "kursus-komputer"
+      file: "kursus-komputer.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: "kursus-mengemudi"
-    label: "deskripsi-vokasi"
-    file: "kursus-mengemudi.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+    - label: "Kursus Mengemudi"
+      name: "kursus-mengemudi"
+      file: "kursus-mengemudi.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: "kursus-menjahit"
-    label: "deskripsi-vokasi"
-    file: "kursus-menjahit.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+    - label: "Kursus Menjahit"
+      name: "kursus-menjahit"
+      file: "kursus-menjahit.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: "program-kursus"
-    label: "list program kursus gratis"
-    file: "programkursus.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "program kursus-tentang-paket kursus"
+    label: "list tentang, program kursus, paket kursus"
+    files:
+    - name: "program-kursus"
+      label: "list program kursus gratis"
+      file: "programkursus.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: "tentang"
-    label: "berisi visi misi legalitas"
-    file: "tentang.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-  
+    - name: "tentang"
+      label: "berisi visi misi legalitas"
+      file: "tentang.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown" }
+    
 
-  - name: "paket-kursus"
-    label: "list paket paket kursus dari termurah"
-    file: "paketkursus.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+    - name: "paket-kursus"
+      label: "list paket paket kursus dari termurah"
+      file: "paketkursus.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown" }
