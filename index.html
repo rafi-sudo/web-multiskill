@@ -1,30 +1,17 @@
 ---
 layout: default
 ---
-  <div class="max-w-4xl mx-auto mt-10">
-    <div class="swiper mySwiper rounded-2xl shadow-lg overflow-hidden">
-      <div class="swiper-wrapper">
-        <!-- Slide 1 -->
-        <div class="swiper-slide">
-          <img src="https://blog-cdn.kitalulus.com/blog/wp-content/uploads/2024/02/20095937/620d2b1b611eb8fb2d6b3062_Job-desk-graphic-designer.jpg.webp" class="w-full h-64 object-cover" />
-        </div>
-        <!-- Slide 2 -->
-        <div class="swiper-slide">
-          <img src="https://blog-cdn.kitalulus.com/blog/wp-content/uploads/2024/02/20095937/620d2b1b611eb8fb2d6b3062_Job-desk-graphic-designer.jpg.webp" class="w-full h-64 object-cover" />
-        </div>
-        <!-- Slide 3 -->
-        <div class="swiper-slide">
-          <img src="https://www.toyota.astra.co.id/sites/default/files/2020-03/fit-kursus-mengemudi.jpeg" class="w-full h-64 object-cover" />
-        </div>
-      </div>
-
-      <!-- Navigasi panah -->
-      <div class="swiper-button-next text-white"></div>
-      <div class="swiper-button-prev text-white"></div>
-
-      <!-- Pagination -->
-      <div class="swiper-pagination"></div>
-    </div>
+  <div class="swiper mySwiper" style="width: 100%; max-width: 600px; margin:auto;">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="https://images.pexels.com/photos/2249290/pexels-photo-2249290.jpeg" alt="Menjahit" style="width:100%;"></div>
+    <div class="swiper-slide"><img src="https://images.pexels.com/photos/461035/pexels-photo-461035.jpeg" alt="Menjahit" style="width:100%;"></div>
+    <div class="swiper-slide"><img src="https://images.pexels.com/photos/1189675/pexels-photo-1189675.jpeg" alt="Menjahit" style="width:100%;"></div>
+  </div>
+  <!-- Navigasi panah -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <!-- Pagination bulat -->
+  <div class="swiper-pagination"></div>
   </div>
     <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
@@ -83,3 +70,17 @@ layout: default
     </section>
   <div class="tr-widget" data-id="7348" data-view="" data-lang=""><a href="https://trust.reviews/" class="trcr" target="_blank">Powered by <span>Trust.Reviews</span></a></div><script type="text/javascript" src="https://cdn.trust.reviews/widget/embed.min.js" defer></script>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
