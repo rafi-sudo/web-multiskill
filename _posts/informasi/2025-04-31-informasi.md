@@ -11,6 +11,7 @@ thumbnail: /assets/images/thumbsnail/ID CARD SAMPLE.jpg
 Berikut contoh teks promosi yang bisa kamu gunakan untuk media sosial atau brosur digital:
 
 ---
+![img](/assets/images/thumbsnail/ID%20CARD%20SAMPLE.jpg)
 
 **GRATIS! Pelatihan Teknik Komputer di LKP Kurnia Kota Banjar!**
 
