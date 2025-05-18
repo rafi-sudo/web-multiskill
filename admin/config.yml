@@ -31,7 +31,6 @@ collections:
   - name: "kursus-desain"
     label: "deskripsi-vokasi"
     file: "kursus-desain.md"
-    create : true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
@@ -40,7 +39,6 @@ collections:
   - name: "kursus-komputer"
     label: "deskripsi-vokasi"
     file: "kursus-komputer.md"
-    create : true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
@@ -49,7 +47,6 @@ collections:
   - name: "kursus-mengemudi"
     label: "deskripsi-vokasi"
     file: "kursus-mengemudi.md"
-    create : true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
@@ -58,7 +55,6 @@ collections:
   - name: "kursus-menjahit"
     label: "deskripsi-vokasi"
     file: "kursus-menjahit.md"
-    create : true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
@@ -67,7 +63,6 @@ collections:
   - name: "program-kursus"
     label: "list program kursus gratis"
     file: "programkursus.md"
-    create : true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
@@ -76,7 +71,6 @@ collections:
   - name: "tentang"
     label: "berisi visi misi legalitas"
     file: "tentang.md"
-    create : true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
@@ -86,7 +80,6 @@ collections:
   - name: "paket-kursus"
     label: "list paket paket kursus dari termurah"
     file: "paketkursus.md"
-    create : true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
